@@ -1,11 +1,9 @@
 *.sln
 *.pdb
 *.log
-.vs/*
-Binaries/*
-Intermediate/*
-DerivedDataCache/*
-Saved/Config/CrashReportClient/*
-Saved/Config/WindowsEditor/*
-Saved/Logs/*
-
+/.vs
+/Binaries
+/Build
+/Intermediate
+/DerivedDataCache
+/Saved
