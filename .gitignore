@@ -1,0 +1,6 @@
+*.sln
+*.pdb
+.vs/*
+Binaries/*
+Intermediate/*
+DerivedDataCache/*
