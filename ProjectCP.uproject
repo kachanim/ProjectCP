@@ -5,6 +5,14 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "ProjectCPEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
 			"Name": "ProjectCP",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
