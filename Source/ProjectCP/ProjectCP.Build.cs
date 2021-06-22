@@ -8,13 +8,21 @@ public class ProjectCP : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+        PublicIncludePaths.AddRange(
+            new string[]{
+                "ProjectCP",
+                "ProjectCP/Pawn",
+                "ProjectCP/GameMode",
+        });
+
         PublicDependencyModuleNames.AddRange(
             new string[] {
                 "Core",
                 "CoreUObject",
                 "Engine",
                 "NavigationSystem",
-                "AIModule"
+                "AIModule",
+                "ApplicationCore",
             }
         );
     }
