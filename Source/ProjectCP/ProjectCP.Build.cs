@@ -11,8 +11,10 @@ public class ProjectCP : ModuleRules
         PublicIncludePaths.AddRange(
             new string[]{
                 "ProjectCP",
+                "ProjectCP/Engine",
                 "ProjectCP/Pawn",
                 "ProjectCP/GameMode",
+                "ProjectCP/Singletons",
         });
 
         PublicDependencyModuleNames.AddRange(
